@@ -1,4 +1,4 @@
-# React Chrome Extension Boilerplate
+# Weather chrome extension
 
 ## Getting Started
 
@@ -6,7 +6,7 @@
 2. `npm start` to start running the fast development mode Webpack build process that bundle files into the `dist` folder
 3. `npm i --save-dev <package_name>` to install new packages
 
-## Loading The Chrome Extension
+## Loading The Chrome Extension for dev mode
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Toggle on `Developer mode` in the top right corner
@@ -26,8 +26,8 @@
 2. ZIP the entire `dist` folder (e.g. `dist.zip`)
 3. Publish the ZIP file on the Chrome Web Store Developer Dashboard!
 
-## Important Default Boilerplate Notes
+# Published on chrome store
 
-- Folders get flattened, static references to images from HTML do not need to be relative (i.e. `icon.png` instead of `../static/icon.png`)
-- Importing local ts/tsx/css files should be relative, since Webpack will build a dependancy graph using these paths
-- Update the manifest file as per usual for chrome related permissions, references to files in here should also be flattened and not be relative
+  
+[live on chrome store](https://chrome.google.com/webstore/detail/weather-extension/jlkgifafonakjehnpikhepcgnjjbdbpn?hl=en-GB&authuser=2).
+
